@@ -1,0 +1,73 @@
+/* Definindo o estilo para o corpo da página */
+body {
+    /* Altura total da viewport para centralizar o conteúdo verticalmente */
+    height: 100vh; 
+    /* Cor de fundo sutil ou gradiente */
+    background-color: black; /* Um azul financeiro */
+    /* Garante que o conteúdo seja centralizado verticalmente */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px; /* Preenchimento para telas menores */
+}
+
+/* Estilo para o cartão de login */
+.custom-card {
+    /* Borda arredondada maior */
+    border-radius: 15px; 
+    /* Cor de fundo do cartão */
+    background-color:rgb(14, 13, 13); 
+}
+
+/* Estilo para o botão principal */
+.custom-btn {
+    /* Cor de fundo do botão (Pode ser ajustado para a cor da sua Fintech) */
+    background-color:blueviolet; 
+    /* Cor da borda */
+    border-color:blueviolet; 
+    /* Aumenta um pouco a borda arredondada */
+    border-radius: 8px;
+    /* Transição suave para efeitos hover */
+    transition: background-color 0.3s ease;
+}
+
+/* Efeito ao passar o mouse sobre o botão */
+.custom-btn:hover {
+    background-color:black; /* Uma tonalidade um pouco mais clara */
+    border-color:black;
+}
+
+/* Estilo para o ícone/letra 'B' (ou logo) */
+.logo-icon {
+    /* Cor que destaque */
+    color:blueviolet; 
+}
+
+/* Estilo para a responsividade (em telas pequenas) */
+@media (max-width: 576px) {
+    .custom-card {
+        padding: 1rem !important;
+        /* Em telas menores, o cartão pode ter cantos menos arredondados */
+        border-radius: 10px; 
+    }
+}
+
+.card-title{
+    color: blueviolet;
+}
+
+.form-labeli{
+    color: aliceblue ;
+}
+
+.form-labelo{
+    color: aliceblue;
+}
+
+.mt-2{
+    color: aliceblue;
+}
+
+.bolso{
+    color:blueviolet ;
+}
